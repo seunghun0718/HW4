@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 int main() {
-	ofstream xx("test10.txt");
+	ofstream xx("test.txt");
 	if (!xx) {
 		cout << " can't open file\n";
 		return -1;
